@@ -32,7 +32,12 @@ body {
 .social-links-home a i {
     font-size: 1.8rem; /* Controls the size of the icons */
 }
-
+.button-container {
+  display: flex;              /* Enables flexbox layout */
+  justify-content: center;  /* Centers the items horizontally */
+  align-items: center;      /* Aligns the items vertically (good practice) */
+  gap: 20px;                  /* Adds a 20px space between the buttons */
+}
 .social-links-home a:hover {
     color: var(--accent-pink); /* Adds a pink highlight on hover */
     transform: translateY(-3px); /* Subtle lift effect */
