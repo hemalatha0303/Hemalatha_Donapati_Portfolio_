@@ -126,7 +126,7 @@ body {
 .hero-description{max-width:600px;margin:20px auto 30px auto;opacity:0.9;}
 .hero-cta {
     display: flex;
-    flex-direction: column; /* This stacks the items vertically */
+    flex-direction: row; 
     align-items: center;    /* This centers them horizontally */
     gap: 25px;              /* This creates space between the icon line and the button */
 }
